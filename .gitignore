@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+*.log
+.DS_Store
+deploy/slots/blue/node_modules/
+deploy/slots/green/node_modules/
+production/logs/
+production/app.pid
+production/.warm.pid

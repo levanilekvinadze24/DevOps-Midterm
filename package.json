@@ -1,0 +1,30 @@
+{
+  "name": "devops-midterm-app",
+  "version": "1.0.0",
+  "description": "Small web app for DevOps midterm (CI/CD, IaC, blue-green simulation)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint src tests"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": ["/node_modules/"],
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}
