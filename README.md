@@ -244,6 +244,8 @@ Embedded images (they will render on GitHub once the files exist in `docs/screen
 ![Running app after deploy](docs/screenshots/deploy-app.png)
 
 ![Health monitor log](docs/screenshots/monitor-log.png)
+<img width="1642" height="572" alt="image" src="https://github.com/user-attachments/assets/7ce0d5f9-50b5-4465-a8cc-8f2fbfe54704" />
+
 
 ---
 
