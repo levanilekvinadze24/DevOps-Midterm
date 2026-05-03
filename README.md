@@ -115,6 +115,13 @@ Smoke checks:
 - HTML form: `http://127.0.0.1:3000/form` (or `http://127.0.0.1:4000/form`)
 
 ---
+## Troubleshooting
+
+- **Port already in use (`EADDRINUSE`)**: run on a different port.
+  - Git Bash / WSL: `PORT=4000 npm start`
+  - PowerShell: `$env:PORT=4000; npm start`
+- **`bash` command not found on Windows**: run scripts via **Git Bash** (Git for Windows) or **WSL**.
+- **Health check shows `FAIL`**: make sure the app is running and the URL/port matches (`/health`).
 
 ## Step-by-step: IaC — one-command environment preparation
 
